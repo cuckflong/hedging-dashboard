@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+public/
+.yarn
+.husky
+next.config.js
+coverage/
+types/
+dist/
+stats.json
