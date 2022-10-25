@@ -1,1 +1,1 @@
-export const apiServerURL = "http://127.0.0.1:3333";
+export const apiServerURL = process.env.API_URL as string;
