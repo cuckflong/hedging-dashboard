@@ -56,6 +56,9 @@ export default function BaseLineHistory({
                 color: "#ffffff",
               },
             },
+            fill: {
+              type: "gradient",
+            },
             annotations: {
               yaxis: [
                 {
