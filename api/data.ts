@@ -2,6 +2,8 @@ import axios from "axios";
 
 import { apiServerURL } from "../lib/config";
 
+axios.defaults.withCredentials = true;
+
 export async function fetchDotBalanceTotal() {
   const res = await axios.get<{ dot_total: number }>(
     apiServerURL + "/dot/balance"
