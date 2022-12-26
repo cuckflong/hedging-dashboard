@@ -5,7 +5,6 @@ module.exports = {
     "react",
     "^@core/(.*)$",
     "next(.*)",
-    "@mui/(.*)",
     "<THIRD_PARTY_MODULES>",
     "^@server/(.*)$",
     "^@ui/(.*)$",

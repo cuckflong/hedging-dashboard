@@ -15,6 +15,7 @@ import { LiquidTotalStat } from "../components/Stat/LiquidTotalStat";
 import { MarginLevelStat } from "../components/Stat/MarginLevelStat";
 import { PnlAggregatedStat } from "../components/Stat/PnlAggregatedStat";
 import { PnlTotalStat } from "../components/Stat/PnlTotalStat";
+import { PpsRealizedPnlStat } from "../components/Stat/PpsRealizedPnl";
 import { SwapTotalStat } from "../components/Stat/SwapTotalStat";
 
 function Home() {
@@ -30,6 +31,7 @@ function Home() {
             <DotRewardTotalStat />
             <SwapTotalStat />
             <CostTotalStat />
+            <PpsRealizedPnlStat />
             <PnlTotalStat />
             <PnlAggregatedStat />
             <DotNetExposureStat />

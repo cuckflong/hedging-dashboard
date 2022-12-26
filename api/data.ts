@@ -85,3 +85,10 @@ export async function fetchApr() {
   const res = await axios.get<{ apr: number }>(apiServerURL + "/apr");
   return res.data.apr;
 }
+
+export async function fetchPpsRealizedPnl() {
+  const res = await axios.get<{ pps_realized_pnl: number }>(
+    apiServerURL + "/pps/realized_pnl"
+  );
+  return res.data.pps_realized_pnl;
+}
