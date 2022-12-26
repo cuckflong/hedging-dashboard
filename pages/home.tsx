@@ -13,7 +13,6 @@ import { DotStakedRatioStat } from "../components/Stat/DotStakedRatioStat";
 import { DotStakedTotalStat } from "../components/Stat/DotStakedTotalStat";
 import { LiquidTotalStat } from "../components/Stat/LiquidTotalStat";
 import { MarginLevelStat } from "../components/Stat/MarginLevelStat";
-import { PnlAggregatedStat } from "../components/Stat/PnlAggregatedStat";
 import { PnlTotalStat } from "../components/Stat/PnlTotalStat";
 import { PpsRealizedPnlStat } from "../components/Stat/PpsRealizedPnl";
 import { SwapTotalStat } from "../components/Stat/SwapTotalStat";
