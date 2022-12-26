@@ -33,7 +33,7 @@ function Home() {
             <CostTotalStat />
             <PpsRealizedPnlStat />
             <PnlTotalStat />
-            <PnlAggregatedStat />
+            {/* <PnlAggregatedStat /> */}
             <DotNetExposureStat />
             <MarginLevelStat />
             <AprStat />
