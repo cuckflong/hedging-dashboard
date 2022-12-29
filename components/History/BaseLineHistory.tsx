@@ -19,7 +19,6 @@ export default function BaseLineHistory({
   id,
 }: LineHistoryProps) {
   const queryData = useQuery(title, fetchFunction, {
-    enabled: false,
     staleTime: Infinity,
   });
 
