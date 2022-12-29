@@ -10,6 +10,7 @@ export default function NetExposureHistory() {
         }}
         title="Net Exposure History"
         seriesName="DOT"
+        id="dotExposure"
       />
     </>
   );

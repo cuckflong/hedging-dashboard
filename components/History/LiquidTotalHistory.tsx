@@ -10,6 +10,7 @@ export default function LiquidTotalHistory() {
         }}
         title="Total Liquid Value History"
         seriesName="Total Liquid Value"
+        id="liquidTotal"
       />
     </>
   );

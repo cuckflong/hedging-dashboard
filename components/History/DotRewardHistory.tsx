@@ -10,6 +10,7 @@ export default function DotRewardHistory() {
         }}
         title="Dot Rewards History"
         seriesName="Dot Reward"
+        id="dotReward"
       />
     </>
   );

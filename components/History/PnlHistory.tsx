@@ -10,6 +10,7 @@ export default function PnLHistory() {
         }}
         title="PnL History"
         seriesName="USD"
+        id="pnl"
       />
     </>
   );
