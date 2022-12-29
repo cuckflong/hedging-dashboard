@@ -1,5 +1,4 @@
-import { Box, Button, HStack, Skeleton, Tooltip } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
+import { Box, Button, HStack, Skeleton } from "@chakra-ui/react";
 import { useQuery } from "react-query";
 
 import dynamic from "next/dynamic";
@@ -19,7 +18,10 @@ export default function BaseLineHistory({
   seriesName,
   id,
 }: LineHistoryProps) {
-  const queryData = useQuery(title, fetchFunction);
+  const queryData = useQuery(title, fetchFunction, {
+    enabled: false,
+    staleTime: Infinity,
+  });
 
   let historyData: Array<number> = [];
   let historyTime: Array<number> = [];
