@@ -140,6 +140,7 @@ export default function BaseLineHistory({
                   },
                 },
                 zoom: {
+                  type: "xy",
                   autoScaleYaxis: true,
                 },
                 events: {
